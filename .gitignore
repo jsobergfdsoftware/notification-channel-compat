@@ -64,3 +64,9 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+
+#IDEA -
+*.iml
+/.idea/*.xml
+/.idea/libraries
+/.idea/caches
