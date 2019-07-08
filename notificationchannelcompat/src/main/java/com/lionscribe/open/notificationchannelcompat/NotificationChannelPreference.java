@@ -22,9 +22,10 @@ import android.content.res.TypedArray;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.v7.preference.Preference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+
+import androidx.preference.Preference;
 
 import com.lionscribe.open.notificationchannelcompat.ui.PreferencesChannelsActivity;
 

@@ -19,14 +19,15 @@ package com.lionscribe.open.notificationchannelcompat.ui;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v14.preference.SwitchPreference;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.PreferenceFragmentCompat;
-import android.support.v7.preference.PreferenceManager;
-import android.support.v7.preference.PreferenceScreen;
-import android.support.v7.view.ContextThemeWrapper;
+
+import androidx.appcompat.view.ContextThemeWrapper;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceFragmentCompat;
+import androidx.preference.PreferenceManager;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.SwitchPreference;
 
 import com.lionscribe.open.notificationchannelcompat.NotificationChannelCompat;
 import com.lionscribe.open.notificationchannelcompat.NotificationChannelGroupCompat;

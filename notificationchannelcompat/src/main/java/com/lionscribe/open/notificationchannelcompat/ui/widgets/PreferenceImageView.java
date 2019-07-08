@@ -22,12 +22,14 @@ package com.lionscribe.open.notificationchannelcompat.ui.widgets;
 import android.content.Context;
 import android.util.AttributeSet;
 
+import androidx.appcompat.widget.AppCompatImageView;
+
 import com.lionscribe.open.notificationchannelcompat.R;
 
 /**
  * Extension of ImageView that correctly applies maxWidth and maxHeight.
  */
-public class PreferenceImageView extends android.support.v7.widget.AppCompatImageView {
+public class PreferenceImageView extends AppCompatImageView {
     public PreferenceImageView(Context context) {
         super(context);
     }
